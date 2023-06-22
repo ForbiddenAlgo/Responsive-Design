@@ -1,0 +1,193 @@
+.outline {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* left: 0px;
+    top: 4820px; */
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* background: #F8464A; */
+    /* color: white; */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* color: white; */
+}
+
+.grid-container {
+    /* top: 10%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10%; /* Gap between grid items */
+}
+
+.grid-content {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 5%;
+    top: 20%;
+
+/* Heading/Bold/Heading 6 - 16px */
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.5px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+    color: #FFFFFF;
+}
+
+.grid-info {
+font-style: normal;
+font-weight: 400;
+font-size: 14.5px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+color: #FFFFFF;
+}
+
+.grid-content2 {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 28%;
+    top: 20%;
+
+/* Heading/Bold/Heading 6 - 16px */
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.5px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+    color: #FFFFFF;
+}
+
+.grid-info2 {
+font-style: normal;
+font-weight: 400;
+font-size: 14.5px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+color: #FFFFFF;
+}
+
+.grid-content3 {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 55%;
+    top: 20%;
+
+/* Heading/Bold/Heading 6 - 16px */
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.5px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+    color: #FFFFFF;
+}
+
+.grid-info3 {
+    /* position: absolute;
+width: 200px;
+height: 24px;
+left: 0px;
+top: 160%; */
+
+/* Heading/Bold/Heading 6 - 16px */
+font-style: normal;
+font-weight: 400;
+font-size: 14.5px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+color: #FFFFFF;
+}
+
+.grid-content4 {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 75%;
+    top: 20%;
+
+/* Heading/Bold/Heading 6 - 16px */
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.5px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+    color: #FFFFFF;
+}
+
+.grid-info4 {
+font-style: normal;
+font-weight: 400;
+font-size: 14.5px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+color: #FFFFFF;
+}
+
+.content {
+    position: absolute;
+/* width: 30%; */
+/* height: 32px; */
+left: 5%;
+top: 70%;
+font-style: normal;
+/* font-weight: 400;
+font-size: 14.5px;
+line-height: 32px; */
+color: #FFFFFF;
+}
+
+.img {
+    position: absolute;
+width: 20%;
+height: 10%;
+left: 85%;
+top: 70%;
+}

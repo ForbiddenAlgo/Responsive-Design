@@ -1,0 +1,42 @@
+.users-container{
+    display: block;
+    position: relative;
+    min-height: 70vh;
+    /* max-height: fit-content; */
+    width: 100%;
+    background-color: white;
+}
+
+.user-container{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+.user-container img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.user-container h1{
+    display: block;
+    text-align: center;
+}
+
+.user-container p{
+    text-align: center;
+}
+
+.users-container button{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+
+    background-color: #F8464A;
+    border-color: #F8464A;
+    width: 13%;
+    height: 11%;
+    font-size: large;
+    color: white;
+    border-radius: 8px;
+}

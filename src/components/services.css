@@ -1,0 +1,105 @@
+
+.services-container {
+    position: relative;
+    min-height: 150vh;
+    max-height: auto;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+    /*horizontal _|_*/
+    /* align-items: center; */ /*vertical |-*/
+    /* Add specific styles for the Services component */
+}
+
+.serv-container h1{
+    /* display: flex; */
+    font-size: 36px;
+    position: relative;
+    /* width: 428px; */
+    height: 56px;
+    /* left: 0px; */
+    /* justify-content: center; */
+    top: 10%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.serv-container p{
+    position: relative;
+    /* justify-content: center; */
+    height: 109px;
+    width: 900px;
+    top: 11%;
+    /* left: 223px; */
+
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    /* or 165% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+
+.icons-flexbox{
+    border-color: #000000;
+    display: flex;
+    gap: 30px;
+    position: absolute; /*relative to nearest positioned ancestor*/
+    justify-content: center;
+    /* align-items: center; */
+    width: 1153px;
+    height: 508px;
+    /* left: 143px; */
+    top: 40%;
+    flex-wrap: wrap;
+    column-gap: 80px;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth{
+    word-wrap: normal;
+    width: 316px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.icons-flexbox > div> img {
+
+    display: flex;
+    justify-content: center;
+    position:relative;
+    left:30%;
+  }
+
+.icons-flexbox > div > h2{
+    display: flex;
+    justify-content: center;
+}
+
+.icons-flexbox > div > p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+  /* .icons-flexbox > div> h2{
+    position: relative;
+    text-align: center;
+    top:10%;
+  } */
